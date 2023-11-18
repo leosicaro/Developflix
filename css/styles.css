@@ -1,6 +1,10 @@
 /* styles.css */
+*{
+  list-style: none;
+}
 body {
   font-family: Arial, sans-serif;
+  background-color: black;
 }
 
 .genero-container {
@@ -15,4 +19,39 @@ h2 {
   margin-bottom: 10px;
 }
 
+li {
+  border: 2px solid black;
+  padding: 2%;
 
+}
+#genero-12 {
+  border: 5px solid rebeccapurple;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+img {
+  height: 42vh;
+}
+#genero-28 {
+  border: 5px solid rebeccapurple;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+#genero-53 {
+  border: 5px solid rebeccapurple;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+li:hover{
+  background-color: blue;
+  
+}
